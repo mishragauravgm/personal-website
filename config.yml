@@ -38,9 +38,10 @@ params:
     author: Gaurav Mishra
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
-    defaultTheme: light
+    defaultTheme: auto
     hideFooter: false
-    disableThemeToggle: true
+    disableThemeToggle: false
+    ShowThemeToggle: true
     ShowShareButtons: false
     ShowReadingTime: false
     disableSpecial1stPost: true
@@ -60,7 +61,7 @@ params:
     profileMode:
           enabled: true
           title: Gaurav Mishra
-          subtitle: "Senior Machine Learning Scientist at Merck specializing in machine learning, computer vision, and NLP with 6+ years of experience bridging AI research and industry applications. Based in Philadelphia, PA, with interests in Hindustani classical music, outdoor activities, boardgame, plants and cats."
+          subtitle: "Senior Machine Learning Scientist at Merck specializing in machine learning, computer vision, and NLP with 6+ years of experience bridging AI research and industry applications. Originally from India, now based in Philadelphia, PA, with interests in Hindustani classical music, outdoor activities, boardgame, plants and cats."
           imageUrl: "picture.jpeg"
           imageWidth: 200
           imageHeight: 200
