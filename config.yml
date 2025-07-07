@@ -36,7 +36,7 @@ menu:
 params:
     description: "This website hosts Gaurav Mishra's research, projects, experience, and contact information."
     author: Gaurav Mishra
-    # googleAnalyticsID: "G-XXXXX"
+    googleAnalyticsID: "G-7NXCV6C62Q"
     DateFormat: "January 2006"
     defaultTheme: auto
     hideFooter: false
