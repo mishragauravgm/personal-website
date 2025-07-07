@@ -1,4 +1,4 @@
 ---
-title: "Data"
-description: "Datasets on various philological topics."
+title: "Resume & Documents"
+description: "Professional documents and credentials."
 ---

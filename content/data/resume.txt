@@ -1,0 +1,110 @@
+(857)-264-9813
+Boston, MA
+in.gaurav.mishra@gmail.com
+GAURAV MISHRA Google Scholar https://scholar.google.com/citations?user=gdi0oOMAAAAJ
+github.com/mishragauravgm
+linkedin.com/in/ingauravmishra
+TECHNICAL EXPERIENCE
+SENIOR SPECIALIST, ML ENGINEERING Merck Sharp and Dohme LLC JUNE 2024 — Current
+Greater Philadelphia, PA
+• Developed and deployed machine learning and deep learning models for process optimization, leveraging Python, TensorFlow,
+and PyTorch to improve manufacturing efficiency
+• Designed and implemented computer vision solutions for defect detection and quality control using OpenCV and cloud-based AI
+services (AWS, GCP)
+• Monitored and maintained ML models in production, ensuring performance consistency through drift detection,
+hyperparameter tuning, and model retraining
+• Collaborated with cross-functional teams to integrate AI/ML solutions into manufacturing workflows, optimizing
+decision-making and process automation
+ML ENGINEER FEB 2024 — MAY 2024
+SystemoneX Boston, MA
+• Developed, trained, and optimized machine learning models using TensorFlow, PyTorch, and Scikit-learn to enhance predictive
+accuracy
+• Conducted data exploration, preprocessing, and visualization with Pandas, NumPy, and Matplotlib to identify patterns and
+improve model performance
+• Built and deployed ML applications tailored to business needs, leveraging cloud platforms like AWS and Google Cloud, while
+researching and implementing suitable ML algorithms
+TECHNOLOGY AND STRATEGY HEAD JAN 2022 — DEC 2023
+Northeastern University Sanskriti Boston, MA
+• Fine-tuned open source LLMs and deployed REST API endpoints on AWS to receive more contextual and factual information
+based on our data using RAG through HuggingFace(Python), LangChain, FAISS and reduced hallucination
+• Spearheaded data-driven strategies like A/B testing using Python, Flask, FastAPI, Tableau, JIRA and SQL. to assess complex
+business use cases, resulting in a significant enhancement of operational efficiency by approximately 50%
+• Leveraged state-of-the-art data technology, collaborating cross-functionally to optimize resource allocation and drive strategic
+decision-making via Agile methodologies
+MACHINE LEARNING ENGINEER MAY 2021 — JAN 2022
+Motorola Solutions Somerville, MA
+• Trained and deployed deep learning based social distancing tracking using ONNX and FastAPI in a server production
+environment in python(PyTorch, TensorFlow, sk-learn, OpenCV). Video data accessed in AWS S3 using MongoDB.
+• Containerized software via Docker and orchestrated using Kubernetes to ensure smooth and fast deployment and seamless
+dependency management of the trained model hence, maintaining the AI infrastructure
+• Utilised quantization, pruning and network surgery to decrease model inference latency by 30% and operationalize the model,
+identified and monitored important metrics to ensuring smooth CI/CD via Bamboo
+• Collaborated with cross-functional teams to create proof-of-concept for face recognition using PyTorch reducing false negatives
+by 30%, used distributed computing(DDP, Sharding) on GPU to accelerate training by 40%
+CLINICAL DEEP LEARNING ENGINEER Center for Visual Information Tech, IIIT DEC 2020 — DEC 2020
+Hyderabad, India
+• Performed user research and collaborated with 5 doctors to devise evidence-based predictions on mammograms and x-rays
+and facilitated data creation and landmark detection on foetal ultrasound scans
+• Implemented weakly-supervised segmentation via U-Net to get explainable predictions with multi-class classification and
+segmentation of affected regions using CNNs; achieved accuracy of 97.86% and authored a paper(paper)
+• Experimented and validated deep learning models by training them on very large unstructured datasets on GPUs; used PyTorch
+and tensorflow along with other ML frameworks
+MACHINE LEARNING ENGINEER DEC 2018 — DEC 2019
+Center for Computational Biology, IIIT New Delhi, India
+• Achieved 95.99% accuracy for prediction of protein-ligand interaction using SVM, Random Forest, MLP etc. by engineering
+features based on Binary/PSSM profiling of non-redundant protein sequences (code-1, code-2, paper-1, paper-2)
+• Deployed an open-source web-server with executables to automate feature generation and prediction for co-factor(SAM) to
+cure arthritis, cancer, dementia, depression, etc. with 96% accuracy. Used SQL and pandas for data management and munging
+EDUCATION
+Master of Science in Electrical and Computer Engineering, Northeastern University, Boston Bachelor of Technology in Electronics and Communication Engineering, Shiv Nadar University, India SEP 2020 — DEC 2022
+AUG 2015 — MAY 2019
+(857)-264-9813
+Boston, MA
+in.gaurav.mishra@gmail.com
+GAURAV MISHRA Google Scholar
+github.com/mishragauravgm
+linkedin.com/in/ingauravmishra
+RESEARCH EXPERIENCE
+• Publication Count: 7
+• Reviewer Forums/Venues: AAAI 2025, ICLR 2025, CHIL 2025, ICLR 2024 Machine Learning for Genomics Explorations 2024, ICLR
+2024 Time Series for Health - Program Committee and Reviewer, etc.
+• Peer-Review Count: 25
+• Citation Count: 152
+• Agrawal, P., Mishra, G., & Raghava, G. P. S. (2020). SAMbinder: A web server for predicting S-adenosyl-L-methionine binding
+residues of a protein from its amino acid sequence. Frontiers in Pharmacology, 10, 1690.
+• Joshi, A., Mishra, G., & Sivaswamy, J. (2020). Explainable disease classification via weakly-supervised segmentation. In
+Interpretable and Annotation-Efficient Learning for Medical Image Computing: Third International Workshop, iMIMIC 2020, Second
+International Workshop, MIL3ID 2020, and 5th International Workshop, LABELS 2020, Held in Conjunction with MICCAI 2020, Lima,
+Peru, October 4–8, 2020, Proceedings 3 (pp. 54–62). Springer International Publishing.
+• Patiyal, S., Agrawal, P., Kumar, V., Dhall, A., Kumar, R., Mishra, G., & Raghava, G. P. S. (2020). NAGbinder: An approach for
+identifying N-acetylglucosamine interacting residues of a protein from its primary sequence. Protein Science, 29(1), 201–210.
+• Mishra, G., & Raghava, G. P. S. (2019). In-Silico Drug Discovery using Protein-Small Molecule Interaction. (PhD Thesis). Shiv Nadar
+University.
+• Mishra, G., Ahluwalia, U., Praharaj, K., & Prasad, S. (2019). RF and RFID based Object Identification and Navigation system for the
+Visually Impaired. In 2019 32nd International Conference on VLSI Design and 2019 18th International Conference on Embedded
+Systems (VLSID) (pp. 533–534). IEEE.
+• Pande, A., Patiyal, S., Lathwal, A., Arora, C., Kaur, D., Dhall, A., ... Raghava, G. P. S. (2019). Computing wide range of
+protein/peptide features from their sequence and structure. BioRxiv, 599126.
+• Agrawal, P., Mishra, G., & Raghava, G. P. S. (2019). SAMbinder: A web server for predicting SAM binding residues of a protein from
+its amino acid sequence. BioRxiv, 625806.
+RELEVANT EXPERIENCE(FULL PROJECT LIST AND PUBLICATIONS HERE)
+Custom LLM expert via RAG and FAISS using Langchain: Utilised RAG and FAISS to configure LLM based expert on in-house pdfs
+via LangChain, OpenAI, StreamLit and HuggingFace. Reduced hallucinations and resulted in more accurate generation code
+Accelerated LLM based sentiment analysis using multi-processing: Deployed a sentiment-analysis model(DistilBert) with
+multi-processing using gunicorn to decrease inference time and used Huggingface to fine-tune the model and deploy it code
+Doctor-patient conversation summary using fine tuned LLMs-: Fine-tuning LLMs for summarising conversation for easy referrals
+using Parameter efficient Fine tuning(LORA) via Huggingface(Transformers) for fast and efficient usage (code)
+Face Recognition-: Employed contrastive learning approaches like SimCLR, CLIP and SimCSE to train a backbone model;
+formulated deep metric learning and multi-task learning problems to accurately predict if two people are related using
+PyTorch(code 1, code 2, code 3)
+Financial Complaint Classification via Fine Tuned LLMs-: Classified text complaints via parameter efficient fine-tuning(LoRA) in
+Huggingface to optimise compute and storage (code)
+Graph NNs: Identified selective inhibitors using GNNs to avoid drug side effects for JAK proteins and predicted pKi value of proteins
+from SMILES of molecules with an RMSE of 6.16 using Graph CNNs in PyG using Pytorch, numpy, etc.
+SKILLS
+ML ML MISC. NLP, Computer Vision, Generative AI, LLMs, GPT, LLaMa, Fine-Tuning, Contrastive Learning, Metric Learning, Information
+Retrieval, Dropout, Network Surgery, Quantization, Face Recognition, BERT, Transformers, Attention, Regularization
+HPC, Slurm, Lightning, ONNX Runtime, Github, Weights&Biases, Azure, AWS, Docker, CI/CD, Kubernetes, Bamboo,
+PyTest, GitLab, Github Action, Snowflake, DeepSpeed, Horovod, , GTest, GitK, Python(scikit-learn, Tensorflow, PyTorch,
+Keras, Pandas, Numpy, HuggingFace, NLTK)
+C++, , MATLAB, SQL, Shell Scripting, Linux, JIRA, Agile, Scrum, Tableau
