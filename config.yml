@@ -1,4 +1,6 @@
-baseURL: "https://gmishra.in/" 
+baseURL: "https://gmishra.in"
+canonifyURLs: true
+relativeURLs: false 
 title: Gaurav Mishra
 theme: PaperMod
 

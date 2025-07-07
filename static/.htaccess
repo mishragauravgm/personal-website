@@ -1,0 +1,16 @@
+# Apache .htaccess for gmishra.in
+RewriteEngine On
+
+# Force trailing slash for directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteRule ^(.*)$ $1/ [L,R=301]
+
+# Handle root domain
+RewriteCond %{HTTP_HOST} ^gmishra\.in$ [NC]
+RewriteRule ^$ /index.html [L]
+
+# Security headers
+Header always set X-Frame-Options "SAMEORIGIN"
+Header always set X-Content-Type-Options "nosniff"
+Header always set X-XSS-Protection "1; mode=block"
