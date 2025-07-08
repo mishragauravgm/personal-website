@@ -36,7 +36,7 @@ menu:
 params:
     description: "This website hosts Gaurav Mishra's research, projects, experience, and contact information."
     author: Gaurav Mishra
-    # googleAnalyticsID: "G-XXXXX"
+    googleAnalyticsID: "G-7NXCV6C62Q"
     DateFormat: "January 2006"
     defaultTheme: auto
     hideFooter: false
@@ -48,13 +48,13 @@ params:
     disableSpecial1stPost: true
     disableAnchoredHeadings: true
     ShowPostNavLinks: false
-    ShowBreadCrumbs: false
+    ShowBreadCrumbs: true
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
     MainSections: ["experience","research","projects","education","personal"]
-    ShowToc: false
+    ShowToc: true
     disableScrollToTop: true
-    TocOpen: false
+    TocOpen: true
     ShowWordCount: false
     UseHugoToc: true
     comments: false
