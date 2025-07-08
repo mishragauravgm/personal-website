@@ -1,4 +1,23 @@
 # Hugo build artifacts
-public/
+# public/ - commented out so GitHub Pages can serve from public/
 resources/
+.hugo_build.lock
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Node modules (if using npm)
+node_modules/
+
+# Hugo cache
 .hugo_build.lock
