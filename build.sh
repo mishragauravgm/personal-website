@@ -1,16 +1,33 @@
 #!/bin/bash
+set -e  # Exit on any error
 
-# Install Hugo if not present
+echo "Starting Hugo build process..."
+
+# Verify Hugo is available
 if ! command -v hugo &> /dev/null; then
-    echo "Installing Hugo..."
-    wget -O /tmp/hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
-    tar -xzf /tmp/hugo.tar.gz -C /tmp
-    sudo mv /tmp/hugo /usr/local/bin/
+    echo "ERROR: Hugo is not available in PATH"
+    exit 1
+fi
+
+# Print Hugo version for verification
+echo "Using Hugo version:"
+hugo version
+
+# Verify we're in a Hugo site directory
+if [ ! -f "config.yml" ] && [ ! -f "config.yaml" ] && [ ! -f "config.toml" ]; then
+    echo "ERROR: No Hugo configuration file found"
+    exit 1
 fi
 
 # Build the site
 echo "Building Hugo site..."
-hugo version
-hugo --minify --gc
+hugo --minify --gc --verbose
 
-echo "Build complete!"
+# Verify public directory was created
+if [ ! -d "public" ]; then
+    echo "ERROR: Public directory was not created"
+    exit 1
+fi
+
+echo "Build complete! Generated files in public/ directory"
+ls -la public/ | head -10
