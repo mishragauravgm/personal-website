@@ -1,0 +1,16 @@
+{
+  "name": "hugo-personal-website",
+  "version": "1.0.0",
+  "description": "Hugo static site for Gaurav Mishra",
+  "scripts": {
+    "build": "./build.sh",
+    "dev": "hugo server -D",
+    "clean": "rm -rf public/"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "private": true,
+  "devDependencies": {},
+  "dependencies": {}
+}
