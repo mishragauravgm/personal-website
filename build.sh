@@ -43,7 +43,7 @@ fi
 
 # Build the site with explicit settings
 echo "Building Hugo site with explicit settings..."
-hugo --minify --gc --verbose --source . --destination public
+hugo --minify --gc --verbose
 
 # Verify public directory was created
 if [ ! -d "public" ]; then
