@@ -53,5 +53,8 @@ fi
 
 echo "Build complete! Generated files in public/ directory"
 echo "Public directory contents:"
-ls -la public/ | head -10
+ls -la public/ | head -5
+echo "Total files in public/:"
+find public -type f | wc -l
 echo "=== BUILD SUCCESSFUL ==="
+exit 0
