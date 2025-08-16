@@ -1,10 +1,12 @@
 [build]
   publish = "public"
-  command = "hugo --minify"
-
+  command = "hugo --minify --gc"
+  
 [build.environment]
   HUGO_VERSION = "0.147.2"
   HUGO_ENVIRONMENT = "production"
+  HUGO_ENABLEGITINFO = "true"
+  NODE_VERSION = "18"
 
 [context.production.environment]
   HUGO_BASEURL = "https://gmishra.in"
@@ -17,3 +19,15 @@
   to = "/index.html"
   status = 200
   force = false
+
+# Handle Hugo's clean URLs
+[[redirects]]
+  from = "/*/index.html"
+  to = "/:splat/"
+  status = 301
+
+# Handle trailing slashes
+[[redirects]]
+  from = "/*/"
+  to = "/:splat/index.html"
+  status = 200
