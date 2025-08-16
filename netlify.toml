@@ -1,26 +1,14 @@
 [build]
-  publish = "public"
   command = "npm run build"
-  ignore = false
-  
+  publish = "public"
+
 [build.environment]
   HUGO_VERSION = "0.147.2"
-  HUGO_ENVIRONMENT = "production"
-  HUGO_ENABLEGITINFO = "true"
-  NODE_VERSION = "18"
-  # Force disable other framework detection
-  DISABLE_AUTO_DETECTION = "true"
-  
-# Explicitly disable framework detection
-[build.processing]
-  skip_processing = false
-  
-# Override any auto-detected commands
-[context.production]
-  command = "npm run build"
-  
-[context.deploy-preview]
-  command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
 
 [context.production.environment]
   HUGO_BASEURL = "https://gmishra.in"
