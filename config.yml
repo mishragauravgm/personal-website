@@ -1,6 +1,7 @@
 baseURL: "https://gmishra.in"
 canonifyURLs: true
-relativeURLs: false 
+relativeURLs: false
+ignoreFiles: ["\\.gitignore$", "\\.DS_Store$"] 
 title: Gaurav Mishra
 theme: PaperMod
 

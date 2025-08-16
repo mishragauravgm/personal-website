@@ -1,0 +1,19 @@
+[build]
+  publish = "public"
+  command = "hugo --minify"
+
+[build.environment]
+  HUGO_VERSION = "0.147.2"
+  HUGO_ENVIRONMENT = "production"
+
+[context.production.environment]
+  HUGO_BASEURL = "https://gmishra.in"
+
+[context.deploy-preview.environment]
+  HUGO_BASEURL = "/"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false
